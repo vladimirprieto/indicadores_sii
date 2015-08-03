@@ -3,6 +3,7 @@ métedos para rescatar en línea los indicadores económicos de SII de Chile a t
 
 ejemplo de uso:
 
+```
 //Creamos la instancia de la clase UF
 $indicador = new Indicadores();
 
@@ -21,3 +22,4 @@ echo "UTM:$res<br>";
 
 
 echo "<pre>".print_r($indicador->iu(),true)."</pre>";
+```
